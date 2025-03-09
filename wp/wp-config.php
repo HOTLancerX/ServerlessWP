@@ -56,14 +56,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define('AUTH_KEY',         '&j*Eo.~[vK8tw3{B]xC$rC5?X:XPt})Y4+)|#[8{6L4|T6<Xl`W/gnR$m(D|+m~>');
+define('SECURE_AUTH_KEY',  '#~.Qpfnkw@9?[,L!otM5)2HZ<O#|j0a(MVN7fH/g,_{u^86}*0)^%z,5gLVRpK-:');
+define('LOGGED_IN_KEY',    'pClV&]0xOg2x%Xv41f|h.8=6*jI/pUIq2Cy#o!:cfT8<.-*Gk8l0T=Szc^mVNl+h');
+define('NONCE_KEY',        'Q$1fU6O(Bj]Bet#ogNJnQDt$924)k%&|556#V!!TAEbH]r!NB1PIJrf}^s6tv VT');
+define('AUTH_SALT',        'W*uU|_PNJf0NE(1}58t?>]btIU&mKhs-fkz_>B=8y%Z+blTA},u$=>/Ayui>n[U&');
+define('SECURE_AUTH_SALT', '-~;y=4*QnIwgA8|T>]z zJF Tw1n{+>@bVC[-&~jID9]Y k~M#v]J--A~-V;+|.I');
+define('LOGGED_IN_SALT',   'C,Kzc8qt4yo5QD|3rag0Qkbpl|R(t]gZo;|?*/j<Cy!U;o20y{@sOH.RK|Fw8+3:');
+define('NONCE_SALT',       '[O+1czW~W(-3I%p4OTe8VMLRf:D7<yk>]C}g[|+wN@;6*iuI`yr:=Ksd=@L)&-V ');
 
 /**#@-*/
 
@@ -88,6 +88,10 @@ $table_prefix = isset($_ENV['TABLE_PREFIX']) ? $_ENV['TABLE_PREFIX'] : 'wp_';
  * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
+
+
+/* Multisite */
+define('WP_ALLOW_MULTISITE', true);
 
 /* Add any custom values between this line and the "stop editing" line. */
 
