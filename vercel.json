@@ -5,7 +5,7 @@
     "functions": {
         "api/index.js": {
           "includeFiles": "wp/**",
-          "maxDuration": 60
+          "maxDuration": 600
         }
     },
     "build": {
